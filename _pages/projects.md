@@ -2,64 +2,45 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research, engineering projects, and things I have built and restored.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Research, Projects, Entrepreneurship]
 horizontal: false
+_styles: |
+  .projects .card-title { font-size: 1.125rem; line-height: 1.4; }
+  .projects .card-text { font-size: 0.875rem; line-height: 1.6; }
+  .projects .card-img-top { width: 100%; height: 190px; object-fit: cover; }
+  .projects a[href$="/ampl-triple-machine/"] .card-img-top { object-position: center; object-fit: contain; }
+  .projects a[href$="/owens-corning-research/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/ipf-computer-vision/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/ipf-physics-modeling/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/formula-sae-test-bench/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/makeathon-solar-panel/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/industrial-water-supply/"] .card-img-top { object-position: center center; }
+  .projects a[href$="/animatronic-restoration/"] .card-img-top { object-position: center 12%; }
+  .projects a[href$="/cushman-scooter-restoration/"] .card-img-top { object-position: center 62%; }
+  .projects a[href$="/original-coffee-pellet/"] .card-img-top { object-position: center 72%; }
 ---
 
-<!-- pages/projects.md -->
 <div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
+  {% if site.enable_project_categories and page.display_categories %}
+    {% for category in page.display_categories %}
+      <h2 id="{{ category | slugify }}" class="category">{{ category }}</h2>
+      {% assign categorized_projects = site.projects | where: "category", category %}
+      {% assign sorted_projects = categorized_projects | sort: "importance" %}
+      <div class="row row-cols-1 row-cols-md-3">
+        {% for project in sorted_projects %}
+          {% include projects.liquid %}
+        {% endfor %}
+      </div>
     {% endfor %}
-    </div>
-  </div>
   {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+    {% assign sorted_projects = site.projects | sort: "importance" %}
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for project in sorted_projects %}
+        {% include projects.liquid %}
+      {% endfor %}
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
   {% endif %}
-{% endif %}
 </div>
