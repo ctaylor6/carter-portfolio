@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: >-
-  Mechanical Engineering PhD Candidate · Northwestern University<br>
   <a href="mailto:cartertaylor2029@u.northwestern.edu">cartertaylor2029 [at] u [dot] northwestern [dot] edu</a>
 
 profile:
