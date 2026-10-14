@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ctaylor6.github.io/Carter-Portfolio_V2/sitemap.xml
+Sitemap: https://ctaylor6.github.io/carter-portfolio/sitemap.xml
