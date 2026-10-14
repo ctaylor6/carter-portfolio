@@ -21,6 +21,8 @@ latest_posts:
   enabled: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/publication-previews.css' | relative_url | bust_file_cache }}">
+
 I am a third-year PhD candidate in Mechanical Engineering at [Northwestern University](https://www.northwestern.edu), focused on advanced manufacturing, process modeling, and data-driven methods for real-world engineering systems.
 
 I am advised by Professor [Jian Cao](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/cao-jian.html) in the [Advanced Manufacturing Processes Lab (AMPL)](https://www.cao.mech.northwestern.edu/). My work is supported by the [National Science Foundation Graduate Research Fellowship (GRFP)](https://www.nsfgrfp.org/).
