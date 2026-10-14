@@ -38,6 +38,12 @@
   object-fit: contain;
 }
 
+.publications ol.bibliography li img[src$="/owens-corning.png"],
+.publications ol.bibliography li img[src$="/radial-indentation.jpeg"] {
+  width: 180px;
+  margin-inline: auto;
+}
+
 @media (min-width: 768px) {
   .publications ol.bibliography > li > .row {
     grid-template-columns: 300px minmax(0, 1fr);
