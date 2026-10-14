@@ -2,7 +2,7 @@
 
 A portfolio website built with the [al-folio](https://github.com/alshedivat/al-folio) academic template. The older Next.js portfolio is kept in [ctaylor6/Carter-Portfolio_V2](https://github.com/ctaylor6/Carter-Portfolio_V2).
 
-**Site:** https://ctaylor6.github.io/carter-portfolio/
+**Site:** https://carter-taylor.com/
 
 ## Content
 
@@ -24,7 +24,7 @@ npm ci
 bundle exec jekyll serve
 ```
 
-Open `http://127.0.0.1:4000/carter-portfolio/`.
+Open `http://127.0.0.1:4000/`.
 
 ```sh
 npm run lint:prettier
@@ -37,4 +37,4 @@ The site intentionally overrides `_includes/news.liquid` to display month labels
 
 ## Publishing
 
-Pushes to `main` build the site and publish the generated files to `gh-pages`. GitHub Pages should use the `gh-pages` branch and `/` root. Keep `baseurl: /carter-portfolio` for this project-site address.
+Pushes to `main` build the site and publish the generated files to `gh-pages`. GitHub Pages should use the `gh-pages` branch and `/` root, with `carter-taylor.com` as the custom domain. The committed `CNAME` preserves that domain during deployments. Keep `url: https://carter-taylor.com` and `baseurl: ""` so navigation and assets use the domain root.
