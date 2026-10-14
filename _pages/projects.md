@@ -8,6 +8,7 @@ nav_order: 3
 display_categories: [Research, Projects, Entrepreneurship]
 horizontal: false
 _styles: |
+  .projects h2.category { color: var(--global-text-color); }
   .projects .card-title { font-size: 1.125rem; line-height: 1.4; }
   .projects .card-text { font-size: 0.875rem; line-height: 1.6; }
   .projects .card-img-top { width: 100%; height: 190px; object-fit: cover; }
