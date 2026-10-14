@@ -1,8 +1,8 @@
-# Carter Taylor — Portfolio V2
+# Carter Taylor — Portfolio
 
-A second portfolio website built with the [al-folio](https://github.com/alshedivat/al-folio) academic template. The original Next.js portfolio remains in [ctaylor6/carter-portfolio](https://github.com/ctaylor6/carter-portfolio).
+A portfolio website built with the [al-folio](https://github.com/alshedivat/al-folio) academic template. The older Next.js portfolio is kept in [ctaylor6/Carter-Portfolio_V2](https://github.com/ctaylor6/Carter-Portfolio_V2).
 
-**Site:** https://ctaylor6.github.io/Carter-Portfolio_V2/
+**Site:** https://ctaylor6.github.io/carter-portfolio/
 
 ## Content
 
@@ -24,7 +24,7 @@ npm ci
 bundle exec jekyll serve
 ```
 
-Open `http://127.0.0.1:4000/Carter-Portfolio_V2/`.
+Open `http://127.0.0.1:4000/carter-portfolio/`.
 
 ```sh
 npm run lint:prettier
@@ -37,4 +37,4 @@ The site intentionally overrides `_includes/news.liquid` to display month labels
 
 ## Publishing
 
-Pushes to `main` build the site and publish the generated files to `gh-pages`. GitHub Pages should use the `gh-pages` branch and `/` root. Keep `baseurl: /Carter-Portfolio_V2` for this project-site address.
+Pushes to `main` build the site and publish the generated files to `gh-pages`. GitHub Pages should use the `gh-pages` branch and `/` root. Keep `baseurl: /carter-portfolio` for this project-site address.
