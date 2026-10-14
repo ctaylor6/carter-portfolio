@@ -8,3 +8,10 @@ overrides:
     upstream_sha256: 2a37611539b5b3d59050cc20b8d008ca070e253d953724f6499a422e9b186f63
     local_sha256: 01505e31277adc7c11373a94ba9d5f9be5b37967ee91716b196ffa83ded002f3
     acknowledged_at: "2026-10-14"
+  _includes/video.liquid:
+    owner: al_folio_core
+    gem_version: 1.0.15
+    upstream_path: _includes/video.liquid
+    upstream_sha256: 787adbfbcbd4b99982a6587ee8c5a36817c5699baf07a06b005a904532de86e4
+    local_sha256: 9394dce891afff20e0187b734dec18b0cf087bef905ac4b356d651bf02c444b7
+    acknowledged_at: "2026-10-14"
