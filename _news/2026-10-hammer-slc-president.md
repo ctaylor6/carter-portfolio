@@ -9,4 +9,4 @@ inline: true
 related_posts: false
 ---
 
-Began serving as President of the HAMMER Engineering Research Center Student Leadership Council.
+Elected President of the HAMMER Engineering Research Center Student Leadership Council.
