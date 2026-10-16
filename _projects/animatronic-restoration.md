@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Animatronic Restoration"
-description: "Restoration and redesign of large-scale animatronic nutcrackers for BalletMet, focusing on mechanical and electrical system modernization."
+description: "I rebuilt mechanical and electrical systems to restore motion and lighting in BalletMet’s 12-foot animatronic nutcrackers."
 img: assets/img/projects/project8.jpg
 importance: 8
 category: "Projects"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+BalletMet’s 12-foot animatronic nutcrackers needed working motion and lighting for the Nutcracker Ball, but the original schematics were unavailable.
+
+**What I did:** In summer and fall 2019, I restored the internal mechanisms, developed new linkages and drive systems, and integrated updated electrical components and control hardware. The restored nutcrackers returned to operation for public display.
+
+**Tools and methods:** Mechanical linkages, drive systems, electrical components, and control hardware.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project8.jpg' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project8.jpg" alt="Animatronic Restoration" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-During the summer and fall of 2019, I worked on restoring 12-foot animatronic nutcrackers used for BalletMet’s Nutcracker Ball. The project required a full redesign of both the mechanical actuation systems and electrical components to reintroduce motion and lighting functionality. This involved rebuilding internal mechanisms, developing new linkages and drive systems, and integrating modern control hardware in the absence of original schematics. The result was a fully functional system capable of reliable operation for public display.
 
 ## Links
 

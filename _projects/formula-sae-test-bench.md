@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Senior Capstone Design Project: Formula SAE Test Bench"
-description: "Capstone project focused on designing and building a differential test bench to measure torque bias in limited-slip differentials."
+description: "I worked with a capstone team to design, build, and validate a differential test bench for Formula Buckeyes."
 img: assets/img/projects/project11.png
 importance: 5
 category: "Projects"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+Formula Buckeyes needed a way to measure torque bias in its limited-slip differential under controlled conditions.
+
+**What I did:** I worked with the capstone team to design, fabricate, and validate a differential test bench. The team combined mechanical design, structural analysis, motor control, and data acquisition to measure torque response. The completed bench came in under budget and supports future drivetrain testing.
+
+**Tools and methods:** Dual Marathon Electric motors, variable frequency drives, chain-driven loading, structural analysis, and data acquisition.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project11.png' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project11.png" alt="Senior Capstone Design Project: Formula SAE Test Bench" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-This project involved the design, fabrication, and validation of a differential test bench to quantify torque bias in Formula Buckeyes’ limited-slip differential. The system used dual Marathon Electric motors and variable frequency drives (VFDs) to independently drive each half-shaft, with torque measured through RPM and chain-driven loading. Mechanical design, structural analysis, and system integration were completed to ensure accurate and repeatable testing. A data acquisition system was implemented to capture torque response under varying conditions. The final system enabled reliable torque bias measurement, operated below budget constraints, and provided a scalable platform for future drivetrain testing.
 
 ## Gallery
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Industrial Water Supply System Upgrade"
-description: "Replacement and redesign of an industrial feedwater pumping system to maintain continuous plant operations under supply constraints."
+description: "I replaced a failing industrial feedwater pump and reconfigured its piping without interrupting production."
 img: assets/img/projects/project6.jpeg
 importance: 7
 category: "Projects"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+A failing feedwater pump threatened a manufacturing facility’s cooling-water supply, while long replacement lead times put continuous production at risk.
+
+**What I did:** In summer 2022, I led the replacement project. I installed a smaller interim pump and reconfigured the piping to connect it to an operating line. When the replacement arrived, I completed the swap without interrupting production and upgraded the distribution system’s capacity and reliability.
+
+**Tools and methods:** Feedwater pumps, piping reconfiguration, and staged equipment replacement.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project6.jpeg' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project6.jpeg" alt="Industrial Water Supply System Upgrade" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-During the summer of 2022, I led the replacement of a failing feedwater pump at a manufacturing facility where cooling water was critical to all operations. Due to extended lead times on large replacement pumps, a direct replacement was not immediately feasible. To avoid downtime, I implemented an interim solution by installing a smaller pump and reconfiguring the piping system to integrate it with an existing operational line, maintaining sufficient water delivery to the plant. Once the replacement pump became available earlier than expected, I executed the swap with no interruption to production and upgraded the feedwater distribution system to improve overall capacity and reliability.
 
 ## Gallery
 

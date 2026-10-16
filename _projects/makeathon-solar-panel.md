@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Makeathon Solar Panel Project"
-description: "First-place project at the 2023 statewide Makeathon exploring how ground-reflected radiation affects solar panel performance."
+description: "I helped build and test a solar-equipped model wind turbine in a team project that placed first at the 2023 Makeathon."
 img: assets/img/projects/project1.jpeg
 importance: 6
 category: "Projects"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+Our 2023 statewide Makeathon team explored how ground-reflected light could affect solar energy generation.
+
+**What I did:** I worked with the team to mount solar cells on a model wind turbine and compare voltage output across different ground conditions. Our prototype earned first place in the AEP challenge and first place overall.
+
+**Tools and methods:** Solar cells, a model wind turbine, voltage measurements, and comparative testing.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project1.jpeg' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project1.jpeg" alt="Makeathon Solar Panel Project" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-During the 2023 statewide Makeathon, our team investigated how ground-reflected radiation influences solar energy generation. We developed a concept mounting solar panels on a model wind turbine and measured voltage response across varying ground conditions. The project combined experimental testing with system-level thinking and resulted in first place in the AEP challenge and first place overall.
 
 ## Links
 

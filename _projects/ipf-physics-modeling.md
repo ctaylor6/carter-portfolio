@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Incremental Profile Forming: Physics Modeling"
-description: "Development of physics-based and computational models to characterize deformation and improve predictability in Incremental Profile Forming (IPF)."
+description: "I developed and validated deformation models and characterized machine dynamics for Incremental Profile Forming."
 img: assets/img/projects/project12_6.png
 importance: 4
 category: "Research"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+Predicting how a tube deforms during Incremental Profile Forming (IPF) is a step toward better geometric accuracy and closed-loop control.
+
+**What I built:** I developed finite element models of radial indentation and validated them against experiments. I also characterized machine and servo dynamics and developed simplified models for faster, control-oriented simulations. This work supports future closed-loop control development.
+
+**Tools and methods:** Finite element analysis, experimental validation, machine dynamics modeling, and numerical simulation.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project12_6.png' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project12_6.png" alt="Incremental Profile Forming: Physics Modeling" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-Incremental Profile Forming (IPF) is a flexible tube-forming process that produces complex geometries through localized deformation driven by tool and tube interaction. This work focused on developing and validating physics-based and computational models to better understand process mechanics and improve geometric predictability. Finite element models of radial indentation were constructed to capture deformation behavior and validated against experimental results. Additional modeling efforts included characterizing machine and servo dynamics to assess control feasibility and incorporating simplified representations to enable faster, control-oriented simulations. These developments provide a foundation for predictive modeling and future closed-loop control of the IPF process.
 
 ## Links
 

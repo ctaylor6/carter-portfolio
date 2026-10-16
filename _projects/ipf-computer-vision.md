@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Incremental Profile Forming: Computer Vision System"
-description: "Development of a computer vision–based measurement system to improve sensing capabilities in Incremental Profile Forming (IPF)."
+description: "I developed laser line sensor measurements and alignment methods for in-process monitoring of tube forming."
 img: assets/img/projects/project10_1.png
 importance: 3
 category: "Research"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+Incremental Profile Forming (IPF) shapes tubes through coordinated tool and tube motion. Reliable in-process geometry measurements are needed to improve the accuracy of the existing open-loop process.
+
+**What I built:** I developed a measurement workflow using laser line sensors, checked sensor accuracy against known standards, established alignment procedures, and transformed local measurements into a shared reference frame. The work provides a foundation for process monitoring and future control.
+
+**Tools and methods:** Laser line sensors, computer vision, sensor calibration, and coordinate transformations.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project10_1.png' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project10_1.png" alt="Incremental Profile Forming: Computer Vision System" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-Incremental Profile Forming (IPF) is a flexible tube-forming process that produces complex geometries through coordinated tool and tube motion. Achieving industrial-level geometric accuracy requires reliable in-process sensing, which is limited in the current open-loop system. This work focused on developing augmented measurement methods using a computer vision framework centered on laser line sensors. The system was designed to verify sensor accuracy against known standards, establish quantitative alignment procedures, and perform coordinate transformations from local sensor frames to a global reference frame. These developments enabled consistent, high-resolution geometric measurements, providing the foundation for improved process monitoring and future control-oriented modeling.
 
 ## Links
 

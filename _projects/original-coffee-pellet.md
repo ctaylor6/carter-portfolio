@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Original Coffee Pellet"
-description: "A project focused on converting spent coffee grounds into a viable fuel pellet through experimental validation and process development."
+description: "I tested and developed a process for turning spent coffee grounds into fuel pellets, advancing the concept to packaging."
 img: assets/img/projects/Project4.jpeg
 importance: 10
 category: "Entrepreneurship"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+The Original Coffee Pellet explores whether spent coffee grounds can become a useful fuel product.
+
+**What I did:** I tested whether the grounds could form a stable pellet, then refined the process for consistency and manufacturability. The project advanced to final-stage packaging for potential commercialization; key process details remain proprietary.
+
+**Tools and methods:** Feasibility testing, iterative process development, and packaging development.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/Project4.jpeg' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/Project4.jpeg" alt="The Original Coffee Pellet" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-The work began with feasibility testing to determine whether coffee grounds could be formed into a stable pellet. This was followed by iterative process optimization to improve manufacturability and consistency. The project advanced to final-stage packaging for potential commercialization, with key aspects of the process remaining proprietary.
 
 ## Gallery
 

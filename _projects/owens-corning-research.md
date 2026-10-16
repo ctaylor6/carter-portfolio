@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Owens Corning Science and Technology Center Internship"
-description: "Data-driven research at Owens Corning focused on improving roofing system impact resistance and extending shingle service life."
+description: "I developed an unsupervised machine learning method to quantify shingle damage and guide impact-resistant roofing design."
 img: assets/img/projects/project13.png
 importance: 2
 category: "Research"
@@ -14,12 +14,16 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+Improving roofing impact resistance requires more useful damage measurements than a pass/fail result alone can provide.
+
+**What I did:** During my Owens Corning internship, I led a roofing-system investigation and developed an unsupervised machine learning method to quantify shingle damage. I presented the findings to senior technical leaders and documented the work in a peer-reviewed internal technical memo. The method remains proprietary.
+
+**Tools and methods:** Unsupervised machine learning, quantitative damage assessment, and technical reporting.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project13.png' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project13.png" alt="Owens Corning Science and Technology Center Internship" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-During my internship at Owens Corning, I led a data-driven investigation into roofing system design to improve impact resistance, extend shingle lifespan, and reduce material waste. I developed a proprietary unsupervised machine learning method to quantify shingle damage, reducing reliance on traditional pass/fail testing and providing clearer design targets during product development. The work was presented to senior technical leaders, identified as important to Owens Corning’s roofing strategy, and documented in a peer-reviewed internal technical memo classified as a trade secret.
 
 [Back to projects]({{ '/projects/' | relative_url }})

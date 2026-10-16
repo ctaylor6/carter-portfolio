@@ -16,12 +16,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: auto; object-fit: contain; }
 ---
 
-**Role:** Core processing pipeline and ICP registration<br>
-**Context:** ME 395, Industry 4.0 · Northwestern University · 2025
+**ME 395, Industry 4.0 · Northwestern University · 2025**
 
-I built the core MATLAB processing pipeline for Layerview, a team project connecting fringe-projection scans to geometric inspection and repair of 3D-printed parts. My work covered point-cloud filtering, CAD reference sampling, initial alignment, integration of iterative closest point (ICP) registration, and geometric error analysis.
+I built Layerview's core processing pipeline to locate defects in 3D-printed parts by comparing measured geometry with CAD, supporting the team's repair-printing workflow.
 
-The team used a camera and projector to measure parts on an Ender 3 Pro. The workflow compared the measured surface with its intended geometry, identified missing material, and generated an STL patch for repair printing.
+**What I built:**
+
+- A MATLAB pipeline for baseline correction, point-cloud filtering, and sampling the reference STL.
+- PCA-based initial alignment followed by MATLAB's point-to-plane **iterative closest point (ICP)** registration.
+- Geometric error maps and residual analysis to compare the scanned surface with its CAD target.
+
+**Tools:** MATLAB · point-cloud processing · PCA · ICP · STL geometry
 
 <figure class="project-feature">
   <a href="{{ 'assets/img/projects/layerview-icp-alignment.png' | relative_url }}">
@@ -30,15 +35,7 @@ The team used a camera and projector to measure parts on an Ender 3 Pro. The wor
   <figcaption>Measured geometry and the sampled CAD reference before and after ICP registration. Figure from the team's final presentation.</figcaption>
 </figure>
 
-## My contribution
-
-I developed the processing stages that turn noisy scan data into an aligned geometric comparison. The pipeline uses a baseline scan to remove the height offset, filters outliers and separates the printed feature from its base, and samples the reference STL into a point cloud. PCA provides the initial orientation before MATLAB's point-to-plane ICP refines the registration. Nearest-neighbor residuals then produce error maps and distributions for evaluating the part.
-
-The repair workflow builds on that comparison: points representing missing geometry define a boundary that is extruded and triangulated into a repair STL. The demonstration focused on simple coin-and-letter geometries.
-
-## Demonstration
-
-The final presentation reports control-case registration RMSE values of **0.082–0.085 mm**. In the illustrated repair comparison, the reported RMSE decreased from **0.15 mm to 0.10 mm**. These results are specific to the course-project demonstration.
+The team's coin-and-letter repair demonstration reduced the reported RMSE from **0.15 mm to 0.10 mm**.
 
 <div class="project-gallery">
   <figure>
@@ -54,8 +51,6 @@ The final presentation reports control-case registration RMSE values of **0.082�
     <figcaption>After repair: reported RMSE of 0.10 mm. The two plots use different color scales.</figcaption>
   </figure>
 </div>
-
-## Code and presentation
 
 - [GitHub repository](https://github.com/ctaylor6/layerview)
 - [Final presentation](https://github.com/ctaylor6/layerview/blob/main/docs/layerview-final-presentation.pdf)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AMPL Triple Machine"
-description: "Project and capstone team lead for a hybrid forming, milling, and deposition machine. Currently under construction."
+description: "I lead the project and capstone team developing a hybrid forming, milling, and deposition machine, currently under construction."
 img: assets/img/projects/ampl-triple-machine.png
 importance: 1
 category: "Research"
@@ -19,15 +19,17 @@ _styles: |
 **Role:** Project and capstone team lead<br>
 **Status:** Under construction
 
-I lead the AMPL Triple project, guiding the capstone team from initial concept through design and prototyping. We are building a hybrid manufacturing machine that combines press forming, CNC milling, and laser-wire directed energy deposition in one platform. The machine is currently under construction.
+AMPL Triple is being built to combine press forming, CNC milling, and laser-wire directed energy deposition in one platform for hybrid manufacturing research.
+
+**What I do:** I lead the project and guide the capstone team from initial concept through design and prototyping. The current design mounts an electric forming actuator directly to the main beam and uses narrower rail-support sections.
+
+**Tools and methods:** CAD, mechanical design, and prototyping.
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/ampl-triple-machine.png' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/ampl-triple-machine.png" alt="AMPL Triple Machine" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-The design uses an electric forming actuator mounted directly to the main beam, with the forward and aft rail-support sections narrowed from 6-inch to 4-inch square tubing. The design is approximately 40 × 50 inches in plan and 97 inches tall (about 1.0 × 1.3 × 2.5 m), with an estimated mass of 200 kg.
 
 ## Links
 

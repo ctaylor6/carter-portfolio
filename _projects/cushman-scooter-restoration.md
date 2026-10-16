@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Cushman Scooter Restoration"
-description: "Complete restoration of a Cushman scooter, including full mechanical refurbishment and electrical system redesign."
+description: "I restored a Cushman scooter through mechanical refurbishment, electrical redesign, and custom upgrades."
 img: assets/img/projects/project3.jpeg
 importance: 9
 category: "Projects"
@@ -14,13 +14,17 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
+This restoration brought a Cushman scooter back to working condition while improving its performance and usability.
+
+**What I did:** I carried out a ground-up restoration, repaired and refurbished mechanical components, and redesigned the electrical system. I also added custom upgrades while preserving the scooter’s character.
+
+**Tools and methods:** Mechanical repair, component refurbishment, and electrical system design.
+
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project3.jpeg' | relative_url }}">
     {% include figure.liquid path="assets/img/projects/project3.jpeg" alt="Cushman Scooter Restoration" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
-
-This project involved a ground-up restoration of a Cushman scooter, with work spanning mechanical repair, component refurbishment, and a complete redesign of the electrical system. In addition to restoring core functionality, the project included several custom upgrades to enhance performance, usability, and overall character.
 
 ## Gallery
 
