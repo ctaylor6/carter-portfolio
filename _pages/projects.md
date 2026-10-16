@@ -13,6 +13,7 @@ _styles: |
   .projects .card-text { font-size: 0.875rem; line-height: 1.6; }
   .projects .card-img-top { width: 100%; height: 190px; object-fit: cover; }
   .projects a[href$="/ampl-triple-machine/"] .card-img-top { object-position: center; object-fit: contain; }
+  .projects a[href$="/layerview/"] .card-img-top { object-fit: contain; background: #000; }
   .projects a[href$="/owens-corning-research/"] .card-img-top { object-position: center center; }
   .projects a[href$="/ipf-computer-vision/"] .card-img-top { object-position: center center; }
   .projects a[href$="/ipf-physics-modeling/"] .card-img-top { object-position: center center; }
