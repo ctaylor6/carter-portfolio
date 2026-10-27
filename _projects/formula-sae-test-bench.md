@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Senior Capstone Design Project: Formula SAE Test Bench"
-description: "I worked with a capstone team to design, build, and validate a differential test bench for Formula Buckeyes."
+description: "A motor-driven bench for measuring torque bias in the Formula Buckeyes limited-slip differential."
 img: assets/img/projects/project11.png
 importance: 5
 category: "Projects"
@@ -14,11 +14,15 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
-Formula Buckeyes needed a way to measure torque bias in its limited-slip differential under controlled conditions.
+I helped design, fabricate and validate a torque-bias-ratio test bench for Formula Buckeyes as part of a three-person capstone team.
 
-**What I did:** I worked with the capstone team to design, fabricate, and validate a differential test bench. The team combined mechanical design, structural analysis, motor control, and data acquisition to measure torque response. The completed bench came in under budget and supports future drivetrain testing.
+- Compared in-car, static and motor-driven tests before selecting a motor-driven bench.
+- Used **two 3 hp, three-phase motors**, variable frequency drives and chain drives to load the differential.
+- Checked the mounting platform for yielding with **finite-element analysis** and added an emergency stop.
+- Implemented **LabVIEW data acquisition** to record differential torque.
+- Completed the bench for **less than $2,000** and collected torque data to evaluate torque bias ratio and support future drivetrain testing.
 
-**Tools and methods:** Dual Marathon Electric motors, variable frequency drives, chain-driven loading, structural analysis, and data acquisition.
+Capstone team: Carter Taylor, Joe Onderko and Cooper Sautter. Advisor: Shawn Midlam-Mohler.
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project11.png' | relative_url }}">

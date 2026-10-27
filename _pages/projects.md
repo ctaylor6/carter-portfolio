@@ -15,6 +15,8 @@ _styles: |
   .projects a[href$="/ampl-triple-machine/"] .card-img-top { object-position: center; object-fit: contain; }
   .projects a[href$="/layerview/"] .card-img-top { object-fit: contain; background: #000; }
   .projects a[href$="/lpbf-collapse-detection/"] .card-img-top { object-fit: contain; background: #fff; }
+  .projects a[href$="/go-melt-predictive-control/"] .card-img-top { object-fit: contain; background: #fff; }
+  .projects a[href$="/pi-tsad/"] .card-img-top { object-fit: contain; background: #fff; }
   .projects a[href$="/fdm-nozzle-cfd/"] .card-img-top { object-fit: contain; background: #fff; }
   .projects a[href$="/titanium-pore-closure/"] .card-img-top { object-fit: contain; background: #fff; }
   .projects a[href$="/owens-corning-research/"] .card-img-top { object-position: center center; }

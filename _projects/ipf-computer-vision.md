@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Incremental Profile Forming: Computer Vision System"
-description: "I developed laser line sensor measurements and alignment methods for in-process monitoring of tube forming."
+description: "Three laser line sensors measure tube geometry during incremental profile forming."
 img: assets/img/projects/project10_1.png
 importance: 3
 category: "Research"
@@ -14,11 +14,13 @@ _styles: |
   .project-gallery img { display: block; width: 100%; height: 240px; object-fit: contain; }
 ---
 
-Incremental Profile Forming (IPF) shapes tubes through coordinated tool and tube motion. Reliable in-process geometry measurements are needed to improve the accuracy of the existing open-loop process.
+I developed an alignment fixture and MATLAB calibration code for three laser line sensors to measure tube geometry during incremental profile forming (IPF).
 
-**What I built:** I developed a measurement workflow using laser line sensors, checked sensor accuracy against known standards, established alignment procedures, and transformed local measurements into a shared reference frame. The work provides a foundation for process monitoring and future control.
-
-**Tools and methods:** Laser line sensors, computer vision, sensor calibration, and coordinate transformations.
+- Designed the fixture to establish the sensor planes and a common global origin.
+- Replaced small alignment holes with raised scan features that could be machined in-house.
+- Developed coordinate transformations using **Taubin circle fitting**, rotation and translation. Alignment and transformation error was **below 0.20 mm**.
+- Compared **three indented specimens** against Keyence reference scans using **point-to-plane iterative closest point (ICP)** alignment.
+- Measured **3D root-mean-square error (RMSE) of 0.0356-0.0511 mm** and **profile RMSE of 0.0150-0.0160 mm** across the three specimens.
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project10_1.png' | relative_url }}">
