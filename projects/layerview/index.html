@@ -1,4 +1,4 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Layerview: 3D Print Inspection and Repair | Carter Taylor </title> <meta name="author" content="Carter Taylor"> <meta name="description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta name="keywords" content="Carter Taylor, Northwestern, advanced manufacturing, laser powder bed fusion, process modeling, machine learning"> <meta property="og:site_name" content="Carter Taylor"> <meta property="og:type" content="website"> <meta property="og:title" content="Carter Taylor | Layerview: 3D Print Inspection and Repair"> <meta property="og:url" content="https://carter-taylor.com/projects/layerview/"> <meta property="og:description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta property="og:image" content="https://carter-taylor.com/assets/img/prof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Layerview: 3D Print Inspection and Repair"> <meta name="twitter:description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta name="twitter:image" content="https://carter-taylor.com/assets/img/prof_pic.jpg"> <script type="application/ld+json">
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> 3D Print Inspection and Repair | Carter Taylor </title> <meta name="author" content="Carter Taylor"> <meta name="description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta name="keywords" content="Carter Taylor, Northwestern, advanced manufacturing, laser powder bed fusion, process modeling, machine learning"> <meta property="og:site_name" content="Carter Taylor"> <meta property="og:type" content="website"> <meta property="og:title" content="Carter Taylor | 3D Print Inspection and Repair"> <meta property="og:url" content="https://carter-taylor.com/projects/layerview/"> <meta property="og:description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta property="og:image" content="https://carter-taylor.com/assets/img/prof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="3D Print Inspection and Repair"> <meta name="twitter:description" content="Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."> <meta name="twitter:image" content="https://carter-taylor.com/assets/img/prof_pic.jpg"> <script type="application/ld+json">
     {
         "author":
         {
@@ -8,7 +8,7 @@
         "url": "https://carter-taylor.com/projects/layerview/",
         "@type": "WebSite",
         "description": "Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts.",
-        "headline": "Layerview: 3D Print Inspection and Repair",
+        "headline": "3D Print Inspection and Repair",
         
         "sameAs": ["https://github.com/ctaylor6","https://www.linkedin.com/in/carter-taylor6","https://scholar.google.com/citations?user=hXrG4rEAAAAJ"],
         
@@ -29,7 +29,7 @@
 .project-gallery figure { margin: 0; }
 .project-gallery img { display: block; width: 100%; height: auto; object-fit: contain; }
 
-  </style> <div class="post"> <header class="post-header"> <h1 class="post-title">Layerview: 3D Print Inspection and Repair</h1> <p class="post-description">Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts.</p> </header> <article> <p><strong>ME 395, Industry 4.0 · Northwestern University · 2025</strong></p> <p>I built Layerview’s core processing pipeline to locate defects in 3D-printed parts by comparing measured geometry with CAD, supporting the team’s repair-printing workflow.</p> <p><strong>What I built:</strong></p> <ul> <li>A MATLAB pipeline for baseline correction, point-cloud filtering, and sampling the reference STL.</li> <li>PCA-based initial alignment followed by MATLAB’s point-to-plane <strong>iterative closest point (ICP)</strong> registration.</li> <li>Geometric error maps and residual analysis to compare the scanned surface with its CAD target.</li> </ul> <p><strong>Tools:</strong> MATLAB · point-cloud processing · PCA · ICP · STL geometry</p> <figure class="project-feature"> <a href="/assets/img/projects/layerview-icp-alignment.png"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-icp-alignment-480.webp 480w,/assets/img/projects/layerview-icp-alignment-800.webp 800w,/assets/img/projects/layerview-icp-alignment-1400.webp 1400w," type="image/webp" sizes="(min-width: 1000px) 900px, 95vw"></source> <img src="/assets/img/projects/layerview-icp-alignment.png" class="img-fluid" width="100%" height="auto" alt="Fringe-projection point cloud and STL reference before and after ICP registration" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>Measured geometry and the sampled CAD reference before and after ICP registration. Figure from the team's final presentation.</figcaption> </figure> <p>The team’s coin-and-letter repair demonstration reduced the reported RMSE from <strong>0.15 mm to 0.10 mm</strong>.</p> <div class="project-gallery"> <figure> <a href="/assets/img/projects/layerview-defect-residuals.jpg"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-defect-residuals-480.webp 480w,/assets/img/projects/layerview-defect-residuals-800.webp 800w,/assets/img/projects/layerview-defect-residuals-1400.webp 1400w," type="image/webp" sizes="(min-width: 800px) 440px, 95vw"></source> <img src="/assets/img/projects/layerview-defect-residuals.jpg" class="img-fluid" width="100%" height="auto" alt="Geometric residual map of the defective printed part" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>Before repair: reported RMSE of 0.15 mm.</figcaption> </figure> <figure> <a href="/assets/img/projects/layerview-repair-residuals.jpg"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-repair-residuals-480.webp 480w,/assets/img/projects/layerview-repair-residuals-800.webp 800w,/assets/img/projects/layerview-repair-residuals-1400.webp 1400w," type="image/webp" sizes="(min-width: 800px) 440px, 95vw"></source> <img src="/assets/img/projects/layerview-repair-residuals.jpg" class="img-fluid" width="100%" height="auto" alt="Geometric residual map after the repair demonstration" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>After repair: reported RMSE of 0.10 mm. The two plots use different color scales.</figcaption> </figure> </div> <ul> <li><a href="https://github.com/ctaylor6/layerview" rel="external nofollow noopener" target="_blank">GitHub repository</a></li> <li><a href="https://github.com/ctaylor6/layerview/blob/main/docs/layerview-final-presentation.pdf" rel="external nofollow noopener" target="_blank">Final presentation</a></li> </ul> <p><strong>Team:</strong> Natalie Gurganus, Zihan Chen, Lisa Kovacs, Jeremy Lu, and Carter Taylor.</p> <p><a href="/projects/">Back to projects</a></p> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Carter Taylor. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  </style> <div class="post"> <header class="post-header"> <h1 class="post-title">3D Print Inspection and Repair</h1> <p class="post-description">Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts.</p> </header> <article> <p><strong>ME 395, Industry 4.0 · Northwestern University · 2025</strong></p> <p>I built Layerview’s core processing pipeline to locate defects in 3D-printed parts by comparing measured geometry with CAD, supporting the team’s repair-printing workflow.</p> <p><strong>What I built:</strong></p> <ul> <li>A MATLAB pipeline for baseline correction, point-cloud filtering, and sampling the reference STL.</li> <li>PCA-based initial alignment followed by MATLAB’s point-to-plane <strong>iterative closest point (ICP)</strong> registration.</li> <li>Geometric error maps and residual analysis to compare the scanned surface with its CAD target.</li> </ul> <p><strong>Tools:</strong> MATLAB · point-cloud processing · PCA · ICP · STL geometry</p> <figure class="project-feature"> <a href="/assets/img/projects/layerview-icp-alignment.png"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-icp-alignment-480.webp 480w,/assets/img/projects/layerview-icp-alignment-800.webp 800w,/assets/img/projects/layerview-icp-alignment-1400.webp 1400w," type="image/webp" sizes="(min-width: 1000px) 900px, 95vw"></source> <img src="/assets/img/projects/layerview-icp-alignment.png" class="img-fluid" width="100%" height="auto" alt="Fringe-projection point cloud and STL reference before and after ICP registration" loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>Measured geometry and the sampled CAD reference before and after ICP registration. Figure from the team's final presentation.</figcaption> </figure> <p>The team’s coin-and-letter repair demonstration reduced the reported RMSE from <strong>0.15 mm to 0.10 mm</strong>.</p> <div class="project-gallery"> <figure> <a href="/assets/img/projects/layerview-defect-residuals.jpg"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-defect-residuals-480.webp 480w,/assets/img/projects/layerview-defect-residuals-800.webp 800w,/assets/img/projects/layerview-defect-residuals-1400.webp 1400w," type="image/webp" sizes="(min-width: 800px) 440px, 95vw"></source> <img src="/assets/img/projects/layerview-defect-residuals.jpg" class="img-fluid" width="100%" height="auto" alt="Geometric residual map of the defective printed part" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>Before repair: reported RMSE of 0.15 mm.</figcaption> </figure> <figure> <a href="/assets/img/projects/layerview-repair-residuals.jpg"> <figure> <picture> <source class="responsive-img-srcset" srcset="/assets/img/projects/layerview-repair-residuals-480.webp 480w,/assets/img/projects/layerview-repair-residuals-800.webp 800w,/assets/img/projects/layerview-repair-residuals-1400.webp 1400w," type="image/webp" sizes="(min-width: 800px) 440px, 95vw"></source> <img src="/assets/img/projects/layerview-repair-residuals.jpg" class="img-fluid" width="100%" height="auto" alt="Geometric residual map after the repair demonstration" loading="lazy" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </a> <figcaption>After repair: reported RMSE of 0.10 mm. The two plots use different color scales.</figcaption> </figure> </div> <ul> <li><a href="https://github.com/ctaylor6/layerview" rel="external nofollow noopener" target="_blank">GitHub repository</a></li> <li><a href="https://github.com/ctaylor6/layerview/blob/main/docs/layerview-final-presentation.pdf" rel="external nofollow noopener" target="_blank">Final presentation</a></li> </ul> <p><strong>Team:</strong> Natalie Gurganus, Zihan Chen, Lisa Kovacs, Jeremy Lu, and Carter Taylor.</p> <p><a href="/projects/">Back to projects</a></p> </article> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Carter Taylor. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -128,8 +128,8 @@ ninja.data = [{
           description: "I rebuilt mechanical and electrical systems to restore motion and lighting in BalletMet’s 12-foot animatronic nutcrackers.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/animatronic-restoration/";
-            },},{id: "projects-aps-beamline-collecting-ground-truth",
-          title: 'APS Beamline: Collecting Ground Truth',
+            },},{id: "projects-aps-beamline-experiments",
+          title: 'APS Beamline Experiments',
           description: "X-ray and photodiode experiments connecting optical signals with melt-pool and pore behavior.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/aps-ground-truth/";
@@ -143,13 +143,13 @@ ninja.data = [{
           description: "I built the ANSYS Fluent pipeline and melting/solidification model to study PLA flow, heating, and nozzle design.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fdm-nozzle-cfd/";
-            },},{id: "projects-senior-capstone-design-project-formula-sae-test-bench",
-          title: 'Senior Capstone Design Project: Formula SAE Test Bench',
+            },},{id: "projects-formula-sae-differential-test-bench",
+          title: 'Formula SAE Differential Test Bench',
           description: "A motor-driven bench for measuring torque bias in the Formula Buckeyes limited-slip differential.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/formula-sae-test-bench/";
-            },},{id: "projects-go-melt-thermal-modeling-and-predictive-control",
-          title: 'GO-MELT: Thermal Modeling and Predictive Control',
+            },},{id: "projects-melt-pool-modeling-and-predictive-control",
+          title: 'Melt Pool Modeling and Predictive Control',
           description: "Thermal FEA, recurrent process models, and predictive control of laser power and beam mode in simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/go-melt-predictive-control/";
@@ -158,18 +158,18 @@ ninja.data = [{
           description: "I replaced a failing industrial feedwater pump and reconfigured its piping without interrupting production.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/industrial-water-supply/";
-            },},{id: "projects-incremental-profile-forming-computer-vision-system",
-          title: 'Incremental Profile Forming: Computer Vision System',
+            },},{id: "projects-ipf-computer-vision-system",
+          title: 'IPF Computer Vision System',
           description: "Three laser line sensors measure tube geometry during incremental profile forming.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ipf-computer-vision/";
-            },},{id: "projects-incremental-profile-forming-physics-modeling",
-          title: 'Incremental Profile Forming: Physics Modeling',
+            },},{id: "projects-ipf-deformation-modeling",
+          title: 'IPF Deformation Modeling',
           description: "I developed and validated deformation models and characterized machine dynamics for Incremental Profile Forming.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ipf-physics-modeling/";
-            },},{id: "projects-layerview-3d-print-inspection-and-repair",
-          title: 'Layerview: 3D Print Inspection and Repair',
+            },},{id: "projects-3d-print-inspection-and-repair",
+          title: '3D Print Inspection and Repair',
           description: "Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/layerview/";
@@ -179,7 +179,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/lpbf-collapse-detection/";
             },},{id: "projects-dmg-mori-lt30-installation-and-air-system",
-          title: 'DMG MORI LT30: Installation and Air System',
+          title: 'DMG MORI LT30 Installation and Air System',
           description: "Machine delivery, utilities, commissioning preparation and a dedicated compressed-air system.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lt30-installation/";
@@ -198,8 +198,8 @@ ninja.data = [{
           description: "I developed an unsupervised machine learning method to quantify shingle damage and guide impact-resistant roofing design.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/owens-corning-research/";
-            },},{id: "projects-pi-tsad-detecting-keyhole-collapse",
-          title: 'PI-TSAD: Detecting Keyhole Collapse',
+            },},{id: "projects-pi-tsad-keyhole-collapse-detection",
+          title: 'PI-TSAD Keyhole Collapse Detection',
           description: "Photodiode-based detection validated against synchrotron X-ray labels and transferred to eight commercial builds without retraining.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/pi-tsad/";
