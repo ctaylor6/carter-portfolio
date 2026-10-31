@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "DMG MORI LT30: Installation and Air System"
+title: "DMG MORI LT30 Installation and Air System"
 description: "Machine delivery, utilities, commissioning preparation and a dedicated compressed-air system."
 img: assets/img/projects/lt30-machine.jpg
 importance: 4

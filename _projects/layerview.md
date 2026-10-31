@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Layerview: 3D Print Inspection and Repair"
+title: "3D Print Inspection and Repair"
 description: "Built the core MATLAB processing and ICP registration pipeline for fringe-projection inspection and repair of 3D-printed parts."
 img: assets/img/projects/layerview-icp-alignment.png
 importance: 1

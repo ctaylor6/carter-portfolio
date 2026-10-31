@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "PI-TSAD: Detecting Keyhole Collapse"
+title: "PI-TSAD Keyhole Collapse Detection"
 description: "Photodiode-based detection validated against synchrotron X-ray labels and transferred to eight commercial builds without retraining."
 img: assets/img/projects/pi-tsad-aps-validation.png
 importance: 0

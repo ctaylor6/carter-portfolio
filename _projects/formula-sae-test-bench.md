@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Senior Capstone Design Project: Formula SAE Test Bench"
+title: "Formula SAE Differential Test Bench"
 description: "A motor-driven bench for measuring torque bias in the Formula Buckeyes limited-slip differential."
 img: assets/img/projects/project11.png
 importance: 5
@@ -26,7 +26,7 @@ Capstone team: Carter Taylor, Joe Onderko and Cooper Sautter. Advisor: Shawn Mid
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project11.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project11.png" alt="Senior Capstone Design Project: Formula SAE Test Bench" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project11.png" alt="Formula SAE Differential Test Bench" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
 
@@ -36,16 +36,16 @@ Select an image to view it at full size.
 
 <div class="project-gallery">
   <a href="{{ 'assets/img/projects/project11_1.jpg' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project11_1.jpg" alt="Senior Capstone Design Project: Formula SAE Test Bench, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project11_1.jpg" alt="Formula SAE Differential Test Bench, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project11_2.jpeg' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project11_2.jpeg" alt="Senior Capstone Design Project: Formula SAE Test Bench, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project11_2.jpeg" alt="Formula SAE Differential Test Bench, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project11_3.jpeg' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project11_3.jpeg" alt="Senior Capstone Design Project: Formula SAE Test Bench, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project11_3.jpeg" alt="Formula SAE Differential Test Bench, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project11_4.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project11_4.png" alt="Senior Capstone Design Project: Formula SAE Test Bench, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project11_4.png" alt="Formula SAE Differential Test Bench, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
 </div>
 

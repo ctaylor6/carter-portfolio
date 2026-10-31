@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Incremental Profile Forming: Computer Vision System"
+title: "IPF Computer Vision System"
 description: "Three laser line sensors measure tube geometry during incremental profile forming."
 img: assets/img/projects/project10_1.png
 importance: 3
@@ -24,7 +24,7 @@ I developed an alignment fixture and MATLAB calibration code for three laser lin
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project10_1.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_1.png" alt="Incremental Profile Forming: Computer Vision System" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_1.png" alt="IPF Computer Vision System" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
 
@@ -39,25 +39,25 @@ Select an image to view it at full size.
 
 <div class="project-gallery">
   <a href="{{ 'assets/img/projects/project10.jpg' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10.jpg" alt="Incremental Profile Forming: Computer Vision System, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10.jpg" alt="IPF Computer Vision System, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_2.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_2.png" alt="Incremental Profile Forming: Computer Vision System, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_2.png" alt="IPF Computer Vision System, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_3.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_3.png" alt="Incremental Profile Forming: Computer Vision System, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_3.png" alt="IPF Computer Vision System, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_4.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_4.png" alt="Incremental Profile Forming: Computer Vision System, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_4.png" alt="IPF Computer Vision System, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_5.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_5.png" alt="Incremental Profile Forming: Computer Vision System, additional image 5" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_5.png" alt="IPF Computer Vision System, additional image 5" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_6.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_6.png" alt="Incremental Profile Forming: Computer Vision System, additional image 6" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_6.png" alt="IPF Computer Vision System, additional image 6" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project10_7.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project10_7.png" alt="Incremental Profile Forming: Computer Vision System, additional image 7" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project10_7.png" alt="IPF Computer Vision System, additional image 7" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
 </div>
 

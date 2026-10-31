@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Incremental Profile Forming: Physics Modeling"
+title: "IPF Deformation Modeling"
 description: "I developed and validated deformation models and characterized machine dynamics for Incremental Profile Forming."
 img: assets/img/projects/project12_6.png
 importance: 4
@@ -22,7 +22,7 @@ Predicting how a tube deforms during Incremental Profile Forming (IPF) is a step
 
 <div class="project-feature">
   <a href="{{ 'assets/img/projects/project12_6.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_6.png" alt="Incremental Profile Forming: Physics Modeling" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_6.png" alt="IPF Deformation Modeling" class="img-fluid" loading="eager" sizes="(min-width: 800px) 760px, 95vw" %}
   </a>
 </div>
 
@@ -37,22 +37,22 @@ Select an image to view it at full size.
 
 <div class="project-gallery">
   <a href="{{ 'assets/img/projects/project12_1.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_1.png" alt="Incremental Profile Forming: Physics Modeling, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_1.png" alt="IPF Deformation Modeling, additional image 1" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project12_5.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_5.png" alt="Incremental Profile Forming: Physics Modeling, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_5.png" alt="IPF Deformation Modeling, additional image 2" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project12_2.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_2.png" alt="Incremental Profile Forming: Physics Modeling, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_2.png" alt="IPF Deformation Modeling, additional image 3" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project12_3.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_3.png" alt="Incremental Profile Forming: Physics Modeling, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_3.png" alt="IPF Deformation Modeling, additional image 4" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project12_4.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_4.png" alt="Incremental Profile Forming: Physics Modeling, additional image 5" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_4.png" alt="IPF Deformation Modeling, additional image 5" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
   <a href="{{ 'assets/img/projects/project12_7.png' | relative_url }}">
-    {% include figure.liquid path="assets/img/projects/project12_7.png" alt="Incremental Profile Forming: Physics Modeling, additional image 6" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
+    {% include figure.liquid path="assets/img/projects/project12_7.png" alt="IPF Deformation Modeling, additional image 6" class="img-fluid" loading="lazy" sizes="(min-width: 800px) 380px, 95vw" %}
   </a>
 </div>
 

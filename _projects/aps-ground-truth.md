@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "APS Beamline: Collecting Ground Truth"
+title: "APS Beamline Experiments"
 description: "X-ray and photodiode experiments connecting optical signals with melt-pool and pore behavior."
 img: assets/img/projects/aps-experimental-setup.jpg
 importance: -1

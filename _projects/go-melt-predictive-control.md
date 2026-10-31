@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "GO-MELT: Thermal Modeling and Predictive Control"
+title: "Melt Pool Modeling and Predictive Control"
 description: "Thermal FEA, recurrent process models, and predictive control of laser power and beam mode in simulation."
 img: assets/img/projects/go-melt-trained-controller-comparison.png
 importance: 2
